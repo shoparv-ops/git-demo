@@ -1,0 +1,23 @@
+DEMO EXPLANATION
+
+Git helps track changes to files and collaborate on projects.
+
+The workflow has three main steps:
+
+ADD
+The git add command stages selected changes. These staged changes are prepared for the next commit.
+
+COMMIT
+The git commit command creates a saved snapshot in the local repository. A useful commit message explains what changed.
+
+PUSH
+The git push command sends local commits to a remote repository, such as GitHub.
+
+The complete flow:
+Working directory -> Staging area -> Local repository -> GitHub
+
+Commands used:
+git status
+git add .
+git commit -m "Add Git workflow demo"
+git push origin main
