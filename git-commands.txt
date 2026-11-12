@@ -1,0 +1,24 @@
+GIT ADD, COMMIT, AND PUSH — COMMAND REFERENCE
+
+1. Check the current state:
+   git status
+
+2. Stage all changes in the current folder:
+   git add .
+
+3. Check which changes are staged:
+   git status
+
+4. Commit the staged changes:
+   git commit -m "Add Git workflow demo"
+
+5. Push the main branch to GitHub:
+   git push origin main
+
+FIRST PUSH ONLY (if upstream is not configured):
+   git push -u origin main
+
+REMEMBER:
+- add = stage changes
+- commit = save changes locally
+- push = upload commits to GitHub
