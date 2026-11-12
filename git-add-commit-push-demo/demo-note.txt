@@ -1,0 +1,14 @@
+Git demonstration sample file
+
+This file is used to demonstrate the Git add, commit, and push workflow.
+
+For the video:
+1. Add a new sentence below this line.
+2. Save the file.
+3. Run git status.
+4. Stage the file with git add.
+5. Commit the change.
+6. Push the commit to GitHub.
+
+Example sentence to add during the recording:
+"I have successfully staged, committed, and pushed this change."
