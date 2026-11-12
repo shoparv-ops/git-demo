@@ -1,0 +1,30 @@
+GIT ADD, COMMIT, AND PUSH — COMMAND REFERENCE
+
+1. Clone the repository:
+git clone https://github.com/shoparv-ops/git-demo.git
+
+2. Enter the project folder:
+cd git-demo/git-add-commit-push-demo
+
+3. Check the current status:
+git status
+
+4. Stage the changed file:
+git add demo-note.txt
+
+5. Check the staging area:
+git status
+
+6. Commit the staged changes:
+git commit -m "Update demo note"
+
+7. Push the commit to GitHub:
+git push origin main
+
+Optional: show recent commits:
+git log --oneline -5
+
+Remember:
+ADD = stage changes
+COMMIT = save changes locally
+PUSH = upload commits to GitHub
